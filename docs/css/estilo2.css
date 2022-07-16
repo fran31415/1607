@@ -1,0 +1,31 @@
+* {padding: 0; margin: 0; box-sizing: border-box;font-family: 'Montserrat', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    border:5px green solid;
+    transform:rotate(-20deg)
+  }
+
+  main { background-color: gray;}
